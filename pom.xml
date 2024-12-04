@@ -15,9 +15,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 				<configuration>
 					<suiteXmlFiles>
 						
-						<!-- <suiteXmlFile>src/test/resources/XMLFiles/CrossBrowsertestng.xml</suiteXmlFile>-->
+						 <suiteXmlFile>src/test/resources/XMLFiles/CrossBrowsertestng.xml</suiteXmlFile>
 
-						<suiteXmlFile>src/test/resources/XMLFiles/testng.xml</suiteXmlFile> 
+						<!--<suiteXmlFile>src/test/resources/XMLFiles/testng.xml</suiteXmlFile> -->
 					</suiteXmlFiles>
 					 <systemPropertyVariables>
             <allure.results.directory>${project.build.directory}/custom-folder/allure-results</allure.results.directory>
